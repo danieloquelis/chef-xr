@@ -5,11 +5,15 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
+  - enabled: 1
+    path: Assets/Samples/PassthroughCameraApiSamples/MultiObjectDetection/MultiObjectDetection.unity
+    guid: 20c230cce46443841b5727b1d6100bfc
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: efcf65053ed40461db3fef65cdf16b93, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 46fd4e07582f4449e93a77b605102fcb, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: e3db80a899a2447b7a60caaa9fcd3036, type: 2}
   m_UseUCBPForAssetBundles: 0

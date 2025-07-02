@@ -1,5 +1,12 @@
 {
   "dependencies": {
+    "com.meta.xr.depthapi.urp": {
+      "version": "https://github.com/oculus-samples/Unity-DepthAPI.git?path=/Packages/com.meta.xr.depthapi.urp",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ca1d556bce6298ecac4b67c2e687c176d3fc943e"
+    },
     "com.meta.xr.mrutilitykit": {
       "version": "77.0.0",
       "depth": 1,
@@ -106,7 +113,7 @@
     },
     "com.unity.burst": {
       "version": "1.8.18",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.mathematics": "1.2.1",
@@ -123,7 +130,7 @@
     },
     "com.unity.collections": {
       "version": "2.5.1",
-      "depth": 2,
+      "depth": 1,
       "source": "registry",
       "dependencies": {
         "com.unity.burst": "1.8.17",
@@ -131,6 +138,13 @@
         "com.unity.nuget.mono-cecil": "1.11.4",
         "com.unity.test-framework.performance": "3.0.3"
       },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.editorcoroutines": {
+      "version": "1.0.0",
+      "depth": 2,
+      "source": "registry",
+      "dependencies": {},
       "url": "https://packages.unity.com"
     },
     "com.unity.ext.nunit": {
@@ -184,7 +198,7 @@
     },
     "com.unity.nuget.mono-cecil": {
       "version": "1.11.4",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {},
       "url": "https://packages.unity.com"
@@ -246,6 +260,17 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+    "com.unity.sentis": {
+      "version": "2.1.3",
+      "depth": 0,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.burst": "1.8.17",
+        "com.unity.collections": "2.4.3",
+        "com.unity.modules.imageconversion": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.shadergraph": {
       "version": "17.0.3",
       "depth": 1,
@@ -268,7 +293,7 @@
     },
     "com.unity.test-framework.performance": {
       "version": "3.0.3",
-      "depth": 3,
+      "depth": 2,
       "source": "registry",
       "dependencies": {
         "com.unity.test-framework": "1.1.31",
@@ -315,8 +340,37 @@
       },
       "url": "https://packages.unity.com"
     },
+    "com.unity.xr.arfoundation": {
+      "version": "6.2.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.ugui": "2.0.0",
+        "com.unity.modules.ui": "1.0.0",
+        "com.unity.inputsystem": "1.6.3",
+        "com.unity.mathematics": "1.2.6",
+        "com.unity.xr.core-utils": "2.5.1",
+        "com.unity.xr.management": "4.4.0",
+        "com.unity.editorcoroutines": "1.0.0",
+        "com.unity.modules.particlesystem": "1.0.0",
+        "com.unity.modules.unityanalytics": "1.0.0",
+        "com.unity.modules.unitywebrequest": "1.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.compositionlayers": {
+      "version": "2.0.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
+        "com.unity.inputsystem": "1.6.3",
+        "com.unity.xr.core-utils": "2.2.2",
+        "com.unity.xr.management": "4.0.1"
+      },
+      "url": "https://packages.unity.com"
+    },
     "com.unity.xr.core-utils": {
-      "version": "2.3.0",
+      "version": "2.5.1",
       "depth": 1,
       "source": "registry",
       "dependencies": {
@@ -347,13 +401,26 @@
       },
       "url": "https://packages.unity.com"
     },
-    "com.unity.xr.openxr": {
-      "version": "1.12.1",
+    "com.unity.xr.meta-openxr": {
+      "version": "2.2.0",
       "depth": 0,
       "source": "registry",
       "dependencies": {
+        "com.unity.xr.openxr": "1.15.0",
+        "com.unity.xr.core-utils": "2.5.1",
+        "com.unity.xr.management": "4.4.0",
+        "com.unity.xr.arfoundation": "6.2.0",
+        "com.unity.xr.compositionlayers": "2.0.0"
+      },
+      "url": "https://packages.unity.com"
+    },
+    "com.unity.xr.openxr": {
+      "version": "1.15.0",
+      "depth": 1,
+      "source": "registry",
+      "dependencies": {
         "com.unity.inputsystem": "1.6.3",
-        "com.unity.xr.core-utils": "2.1.1",
+        "com.unity.xr.core-utils": "2.3.0",
         "com.unity.xr.management": "4.4.0",
         "com.unity.xr.legacyinputhelpers": "2.1.2"
       },
