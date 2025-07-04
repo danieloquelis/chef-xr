@@ -84,7 +84,11 @@ crashlytics-build.properties
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers
 /[Aa]ssets/Unity.VisualScripting.Generated/VisualScripting.Core/Property Providers.meta
 
+/Recordings/*
+
 .vscode/*
 .idea/*
 ChefXR_BurstDebugInformation_DoNotShip/*
 .DS_Store
+
+/Assets/Config/api_keys.json
