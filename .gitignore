@@ -88,3 +88,7 @@ crashlytics-build.properties
 .idea/*
 ChefXR_BurstDebugInformation_DoNotShip/*
 .DS_Store
+
+# App specific
+Assets/Resources/GroqConfig.asset
+Assets/Resources/GroqConfig.asset.meta
